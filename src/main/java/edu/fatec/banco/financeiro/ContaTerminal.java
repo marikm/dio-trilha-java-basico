@@ -8,6 +8,7 @@ public class ContaTerminal {
     private final Float saldo;
 
     public ContaTerminal(Integer numero, String agencia, String nomeCliente, Float saldo) {
+
         this.numero = numero;
         this.agencia = agencia;
         this.nomeCliente = nomeCliente;
@@ -32,11 +33,9 @@ public class ContaTerminal {
 
     @Override
     public String toString() {
-        return "ContaTerminal{" +
-                "numero=" + numero +
-                ", agencia='" + agencia + '\'' +
-                ", nomeCliente='" + nomeCliente + '\'' +
-                ", saldo=" + saldo +
-                '}';
+        return "Olá " + nomeCliente + ", obrigado por criar uma conta em nosso banco, sua agência é " + agencia +
+                ", conta " + numero + " e seu saldo " + saldo + " já está disponível para saque.";
+
+
     }
 }
