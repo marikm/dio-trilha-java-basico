@@ -1,5 +1,7 @@
 package edu.fatec.desafiosDio;
 
+import java.util.Scanner;
+
 public class Contador {
 
     public static void checarParametros(int parametroUm, int parametroDois) throws ParametrosInvalidosException{
@@ -18,10 +20,6 @@ public class Contador {
             System.out.println("O segundo parametro deve ser maior que o primeiro");
         }
 
-    }
-
-    public static void main(String[] args) {
-        contar(40, 30);
     }
 
 }

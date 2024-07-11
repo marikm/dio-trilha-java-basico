@@ -1,7 +1,15 @@
 package edu.fatec.desafiosDio;
 
+import java.util.Scanner;
+
 public class Main {
     public static void main(String[] args) {
-        System.out.println("Hello world!");
+        Scanner terminal = new Scanner(System.in);
+        System.out.println("Digite o primeiro parâmetro");
+        int parametroUm = terminal.nextInt();
+        System.out.println("Digite o segundo parâmetro");
+        int parametroDois = terminal.nextInt();
+
+        new Contador().contar(parametroUm, parametroDois);
     }
 }
