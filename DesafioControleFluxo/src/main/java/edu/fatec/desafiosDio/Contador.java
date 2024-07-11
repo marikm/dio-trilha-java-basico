@@ -16,8 +16,8 @@ public class Contador {
             for(int i = 1; i <= parametroDois - parametroUm; i++){
                 System.out.println("Imprimindo o numero " + i);
             }
-        } catch (ParametrosInvalidosException e){
-            System.out.println("O segundo parametro deve ser maior que o primeiro");
+        } catch (ParametrosInvalidosException mensagem){
+            System.out.println(mensagem);
         }
 
     }
