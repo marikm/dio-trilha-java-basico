@@ -1,7 +1,7 @@
 public class SalarioException extends Exception{
 
-    private Float salario;
-    private Float beneficio;
+    private final Float salario;
+    private final Float beneficio;
 
     public SalarioException(String mensagem, Float salariobruto, Float beneficio){
         super(mensagem);

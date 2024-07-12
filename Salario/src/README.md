@@ -1,4 +1,5 @@
-# Cálculo de salário
+
+# Cálculo de salário líquido
 
 O codigo a seguir pretende calcular o valor de salário líquido.
 O calculo recebe o valor bruto de salario e o adicional de beneficios.
@@ -12,3 +13,8 @@ De R$ 0.00 a R$ 1100.00 = **5.00%**
 De R$ 1100.01 a R$ 2500.00 = **10.00%**
 
 Maior que R$ 2500.00 = **15.00%**
+
+
+
+[Link para o vídeo explicativo](https://youtu.be/SlmCu_zHpFQ)
+

@@ -1,11 +1,10 @@
 import org.junit.jupiter.api.Assertions;
 
-import static org.junit.jupiter.api.Assertions.*;
 
 class CalculoSalarioTest {
 
     @org.junit.jupiter.api.Test
-    void validarSalarioBeneficios() throws SalarioException{
+    void validarSalarioBeneficios(){
         Assertions.assertThrows(SalarioException.class, () -> new CalculoSalario(-1.0F, 100F));
         Assertions.assertThrows(SalarioException.class, () -> new CalculoSalario(0.0F, -100F));
 

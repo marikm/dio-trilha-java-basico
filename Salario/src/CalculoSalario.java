@@ -31,7 +31,6 @@ public class CalculoSalario {
     }
 
     public Float calcularSalario(){
-        Float salarioLiquido = (salarioBruto - salarioBruto*percentualImposto()) + beneficios;
-        return salarioLiquido;
+        return (salarioBruto - salarioBruto*percentualImposto()) + beneficios;
     }
 }
