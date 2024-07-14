@@ -25,7 +25,7 @@ public class Smartphone implements AparelhoTelefonico, NavegadorInternet, Reprod
 
     @Override
     public void exibirPagina(String url) {
-        System.out.println("Exibindo pagina do url: " + url+ " pelo smartphone");
+        System.out.println("Exibindo pagina do url: <" + url+ "> pelo smartphone");
 
     }
 
