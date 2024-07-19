@@ -24,9 +24,12 @@ class CarrinhoDeComprasTest {
     @Test
     void exibirItens(){
         carrinho.adicionarItem(livro);
+        carrinho.adicionarItem(cafe);
         ArrayList<Item> listaTeste = new ArrayList<>();
         listaTeste.add(livro);
-        assertTrue(carrinho.carrinho.containsAll(listaTeste));
+        listaTeste.add(cafe);
+        System.out.println(carrinho.exibirItens());
+        assertEquals(listaTeste, carrinho.exibirItens());
 
     }
 
